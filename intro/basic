@@ -1,0 +1,33 @@
+JAVA ADVANCED 
+annotations are meta data ( data about data ) that provide information  to the compiler , tools or  runtime about how to process elements  in your code 
+1.) they ddont change the logic 
+2.) they provide additional  instructions 
+
+=> they are usewd by -
+
+a.)  spring , hibernate framework
+b.) ide's and compiler 
+
+=> syntax :
+
+@annotationName
+
+public void method(){
+    ------
+}
+
+=> common :built  in annotations in java 
+
+a.)) compile time       -->
+
+ @override => ensures method override a super class method 
+
+ @deprecated =>  marks method  / class as absolute ( out of date)
+
+ @super Warning => super specific compiler warning 
+
+ @documented => includes annotations in java docs
+
+ @Functionalinterface => mark the  interface as functional  , the interface that has only one abstract class or method 1 
+ 
+ @target , @retention 
