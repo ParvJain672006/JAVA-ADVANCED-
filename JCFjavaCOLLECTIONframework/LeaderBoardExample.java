@@ -1,10 +1,6 @@
 package JCFjavaCOLLECTIONframework;
 
-import java.util.Collections;
-import java.util.Map;
-import java.util.PriorityQueue;
-import java.util.TreeMap;
-
+import java.util.*;
 public class LeaderBoardExample {
     public static void main(String[] args) {
         TreeMap<Integer, PriorityQueue<String>> L = new TreeMap<>(Collections.reverseOrder());
