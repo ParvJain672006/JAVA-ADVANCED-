@@ -1,0 +1,30 @@
+java server pages
+
+-> this is a serve side pages
+-> it allows the developers to create  dynamic web applications by embedding java code directly with HTML  ,  XML document 
+
+Browser _ requet -> JSP page -> server     (converts JSP into a java servler ) Dynamiic content produce for ex - HTML   -> sent to browser 
+
+#key feature 
+ -> allow mixing java code with HTML structure 
+ -> Platform independent & words with major java web browser 
+ ->  use to built  view  compon . in MVC in architucture 
+ -> has fulll range allows to all java librarys (( for eex JDBC))
+
+
+
+
+ S-1  client request  a  .jsp page ( Browse )
+ s-2  the server if a compiled server version exist
+
+ s-3 servlet is executed , generating HTML as output 
+
+ s-4 the web server use send th eoutput back to the client 
+
+ # life cycle of JSP
+ a.) Transalation (JSP - > servelet )
+ B.)compilation (servelet -> byte code )
+ C.)coading  ( class coaded -> memory  )
+ D.)initalization ( servlet obj created )E
+ E.) Request Handling 
+ F.) DEstruction ( servlet obj destroyed )      

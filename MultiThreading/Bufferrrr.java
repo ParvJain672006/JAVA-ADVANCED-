@@ -33,7 +33,7 @@ public class Bufferrrr {
 
         Thread producer = new Thread(() -> {
             try {
-                for (int i = 0; i < 10; i++) {
+                for (int i = 0; i < 15; i++) {
                     buffer.produce(i);
                     Thread.sleep(500);
                 }
@@ -44,7 +44,7 @@ public class Bufferrrr {
 
         Thread consumer = new Thread(() -> {
             try {
-                for (int i = 0; i < 10; i++) {
+                for (int i = 0; i < 15; i++) {
                     buffer.consume();
                     Thread.sleep(1000);
                 }
