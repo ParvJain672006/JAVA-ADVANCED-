@@ -60,3 +60,50 @@
 
 **f) Destruction Phase**  
    - `jspDestroy()` method called once when servlet is destroyed
+
+  >>> app servlet       - controller logic  - hhandle request calls  JDBC , forward to JSP 
+  >>> JSP                - view /present  - dsiplay data , minimal or no business  is logic 
+  >>> JDBC              - DB connectivity  - API's for data base operation used y servlets
+
+
+  *jsp are mainly for display  
+  * servlets handles business logic 
+  * JDBC is never used directly  by JSP - IT is always  the service 
+                    > this sepreation ensures clean  , maintanaince , modular , web application in java 
+
+
+
+
+                    # JSP elements & Style 
+
+A.) Expression - output value to page  ->     < % = expression = % >
+
+B.) Scriptlet  - insert java code block ->   < % java code % >
+
+c.) declaration - declare variable / methods ->  < % ! type name : % > or < % ! method (){...} % >
+
+
+D.) directive  - SPecial instruction  ->  <% @ directive attribute  = " value " % 
+
+Example 
+
+A.) hello ! the home is now < % = new java.util.date()% >
+
+B.) <% String name = "green" ;
+SOPln("hello" , + name );
+%>
+
+c .) <% date theDATE = newDATE();
+DATE  getDATE (){
+   retur theDATE;
+} %>
+
+
+ HELLO ! the time is now < %= getDATE () % >
+
+
+ D.) imports the java pacakage 
+
+     > % @ page import = " java.util.* %">
+
+         > males java.util classes available in jsp.
