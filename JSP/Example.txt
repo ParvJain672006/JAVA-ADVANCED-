@@ -1,6 +1,6 @@
 # JSP Example - Power of 2 Table
 
-## 📝 **Code Example:**
+##  **Code Example:**
 
 ```jsp
 <html>

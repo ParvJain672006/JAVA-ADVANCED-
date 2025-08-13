@@ -1,0 +1,46 @@
+ jdbc is a core java that enables java application to connect with interact with and manipulate database 
+
+        ----> its designed so java developers can execute SQL quaries , update records , and manage database transaction 
+
+# ARCTRICTURE & WORKFLOW 
+ 
+ A.) LAYERS :
+ -> java application (initates database cases )
+ -> jDBC API         ( offers standard interface & API)
+ -> JDBC Driver Manager ( Loads &  manager database drivers )
+ -> JDBC Drivers 
+ -> DATABASE          ( actual data storage )
+
+
+ B.) PROCESSING MODELS :
+
+-> 2-tier : java application talks directly to the DATABASE through JDBC driver 
+-> 3-tier : appl.server  -> JDBC driver -> database 
+
+C.) KEY INTERFACE :
+
+-> connection : creates aND  manage connection to DATABASEjava
+-> Statmeat (SQL queries execution )
+-> Resultset ( process query reuses )
+-> DRIVER manager ( Loads appropriate drivers )
+
+d.) DRIVER TYPES 
+-> type 1 :JDBC - ODBC Bridge 
+-> type 2 :  native - API driver 
+-> TYPE 3 : NEtwork protocol driver 
+-> type 4 : thin driver 
+
+
+
+
+# WORKFLOW REQUEST 
+
+CLIENT SENDS REQUESST
+         
+         -> CONTROLLER RECEIVES & PASS THE REQUEST 
+                          
+                          -> CONTROLLER INTERECT WITH MODELS TO PROCESS DATA OR EXECUTE LOGIC 
+                           
+                                              -> PROCESSED DATA IS SET TO VIEW 
+                                                                
+                                                                -> VIEW VENDERS & VENTURES OUTPUT TO CLIENT / BROWSER
