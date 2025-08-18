@@ -1,0 +1,42 @@
+
+
+
+
+Servlets in Java
+
+Servlet works on the serve side.
+
+Servlet are capable of handling the complex request obtain from the web server and able to process it and then able to provide the dynamic response.
+
+Servlet is an type of a interface.
+
+Servlet is an api also.
+
+Servlet is a serve side programming language.
+
+Servlet is an special class which run only on the server. There is no public static void main(String args[]).
+
+Servlet me koi bhi jobic ki programming nahi hoti hai.
+
+Servlet to kabhi bhi execute nahi hota hai.
+
+
+
+---
+
+Detail
+
+a) All the java appli or project follow the MVC architecture (model view controller).
+
+b) Now for model we have – Java Beans. They are like a class, which contain inbuilt getter, setter methods.
+
+Ek object create hota hai (in the form of a bean).
+
+Some app pure database ke andar store kar sakte hai.
+
+
+Now view (details) → for basically we are talking about the browser window here.
+
+JSP pick the form (filling) information & pass it to serv.
+
+View me instance value hai, which is ultimately handled by the webpage. It can be HTML code page injected with JSP.

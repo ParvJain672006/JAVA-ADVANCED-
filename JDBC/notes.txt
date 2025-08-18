@@ -1,4 +1,4 @@
- jdbc is a core java that enables java application to connect with interact with and manipulate database 
+jdbc is a core java that enables java application to connect with interact with and manipulate database 
 
         ----> its designed so java developers can execute SQL quaries , update records , and manage database transaction 
 
@@ -11,7 +11,7 @@
  -> JDBC Drivers 
  -> DATABASE          ( actual data storage )
 
-
+-
  B.) PROCESSING MODELS :
 
 -> 2-tier : java application talks directly to the DATABASE through JDBC driver 
