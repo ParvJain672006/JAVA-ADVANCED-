@@ -40,3 +40,38 @@ Now view (details) → for basically we are talking about the browser window her
 JSP pick the form (filling) information & pass it to serv.
 
 View me instance value hai, which is ultimately handled by the webpage. It can be HTML code page injected with JSP.
+
+
+
+
+
+1. now , last are the cotrollers wich are the servlets  the JSP  or the view pages send the requst  to the coontrollers which hands the logic to be rendered  , then it  sends  the  response  back to the view pages  . Also , servlets  deals with the database first  , which consists of a " DAO layer "  and other jdbc layers  , get answers  from there and  sends them  back to the client 
+
+
+
+MVC architecture  
+
+--> DB --> 
+
+
+
+
+when clients sends an reuest for the data that goes to the servlets it then asks the model or DB  for the data  and sends back the response to the client 
+
+--> similiary  when it has to show some web pages to thhee client ,  it deals with the webpages and sends html or jsp pages to the client 
+
+--> similarly  , when it has to  deal with another  servlets it can do that too   , so it is the junction point for all java activities  
+
+-> servlet in java can be created 2 ways 
+   -> java . x . servlets 
+   -> jakarta version 
+
+
+
+--> java.x was  till 2017   , then in the odern times it has been replaced by jakarta  
+
+--> servlets should not be made manuallyy  , with th help of the idea they has to be made 
+
+--> they are made most popularly with the help of  - " URL mapping and second one is the annotations "
+
+ -- > URL mapping  can be seeing ata the web.xml pages  so , that when you want to fetc a  particular URL , it should something on it 
