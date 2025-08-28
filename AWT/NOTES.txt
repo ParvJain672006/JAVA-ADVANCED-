@@ -1,0 +1,37 @@
+>AWT In java:
+a) AWT means abstract window toolkit is a set of api classes for developing graphical user interface(GUI) and window bases application in java.
+b) It is a part of the java foundation classes(JFC) providing platform independent ways to built graphical applications.
+c) AWT components are heavyweight.
+
+>>Key applications in AWT:
+-> Desktop gui applications.
+-->applet development
+-> prototyping graphical interfaces
+
+
+>>Structure:
+-AWT classes are present in (java.awt)package.
+-It includes components like buttons,labels, and container.
+
+>>Hierarchy:
+--The root is component class.
+--Container holds other components.
+--Windows are top level conatiner.
+
+>>Components is the abstract superclasses.For all non -menu AWT.
+
+*Major componets in AWT:
+A)Button
+b)Label
+c)TextField
+d) TextArea
+e) CheckBox
+f)RadioButton
+g) Choice
+h) List
+i) Scroolbar
+j)Panel
+k) Frame
+l)Dialog
+
+**Awt also include layout managers(Like the borderlayout,FlexLayout) to organize components within conatiner.
