@@ -44,6 +44,9 @@ class LoginForm extends Frame implements ActionListener {
         // Frame properties
         setTitle("Login Form");
         setSize(400, 400);
+        // Center the window on screen (AWT way)
+        Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+        setLocation((screen.width - 400) / 2, (screen.height - 400) / 2);
         setLayout(null);
         setVisible(true);
 
@@ -56,10 +59,15 @@ class LoginForm extends Frame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        String user = tf1.getText();
-        String pass = tf2.getText();
+        String user = tf1.getText().trim();
+        String pass = tf2.getText().trim();
 
         if (e.getSource() == loginBtn) {
+            if (user.isEmpty() || pass.isEmpty()) {
+                msg.setText("Please enter username and password");
+                msg.setForeground(Color.RED);
+                return;
+            }
             if (user.equals("admin") && pass.equals("123")) {
                 msg.setText("Login Successful!");
                 msg.setForeground(Color.GREEN);
